@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>الكليات الأكاديمية</item>
+        <item>مرافق الدعم</item>
+    </string-array>
+    <string-array name="academic">
+        <item>مركز الدراسات التأسيسية</item>
+        <item>كلية علوم الحاسبات</item>
+        <item>كلية إدارة الأعمال والدراسات الإدارية</item>
+        <item>مركز الدراسات العليا</item>
+    </string-array>
+    <string-array name="support">
+        <item>الطلاب الحاليون</item>
+        <item>الطلاب المحتملين</item>
+        <item>الموظفين</item>
+        <item>
+
+الخريجين</item>
+
+    </string-array>
+    <string-array name="tile">
+        <item>فجر كوكب القردة</item>
+        <item>المقاطعة 9</item>
+        <item>المحولات: العمر من الانقراض</item>
+        <item>
+الميكانيكي</item>
+    </string-array>
+    <string-array name="rating">
+
+        <item>8.3</item>
+        <item>8</item>
+        <item>6.3</item>
+        <item>7.9</item>
+    </string-array>
+
+    <string-array name="year">
+    <item>2014</item>
+    <item>2009</item>
+    <item>2014</item>
+        <item>2004</item></string-array>
+</resources>

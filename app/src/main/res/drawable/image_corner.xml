@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<stroke android:width="1dp"
+android:color="#f00505"
+></stroke>
+    <solid android:color="#fff000"></solid>
+<!--<gradient android:startColor="#fff000"
+    android:endColor="#fffgg"
+    android:centerColor="#000ff">
+</gradient>-->
+    <corners android:radius="30dp"></corners> to all chape changes -->
+    <corners android:topRightRadius="30dp"></corners>
+</shape>

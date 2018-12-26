@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thamen.om.RegistrationNew">
+
+    <EditText
+        android:id="@+id/user_id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter User Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="59dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="138dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="237dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/.already_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="237dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

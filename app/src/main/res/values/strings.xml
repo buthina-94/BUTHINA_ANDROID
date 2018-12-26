@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Thamen</string>
+    <string name="final_name">kinder</string>
+    <string name="locate_us">Locate Us</string>
+    <string name="copyright_2018_gulf_college_all_rights_reserved">Copyright © 2018 Gulf College. All Rights Reserved.</string>
+    <string name="locate_us_menu">locate us</string>
+    <string name="moodle">Moodle</string>
+    <string name="optionsss">oop</string>
+    <string name="mail"><![CDATA[<u> gcollege@omantel.net.om</u>]]></string>
+    <string name="change_language">Change Language</string>
+    <string name="news_gazette">News Gazette</string>
+    <string name="academic_calender">Academic Calender</string>
+    <string name="vlg_moodle">VLG (Moodle)</string>
+    <string name="email">Email</string>
+    <string name="exam_timetable">Exam Timetable</string>
+    <string name="conect_us">Conect Us</string>
+    <string name="message">Message</string>
+    <string name="online_help_desk">Online Help Desk</string>
+    <string name="academic">ACADEMIC FACULTIES</string>
+    <string name="support">SUPPORT FACILITIES</string>
+    <string name="title_activity_navigation_main">NavigationMainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">home</string>
+
+</resources>

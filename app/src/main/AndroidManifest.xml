@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thamen.om.thamen">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- theses permissions are called static permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Home"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".initial_setup1.Splachscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="thamen.om.secondproject.Main2Activity" />
+        <activity
+            android:name="thamen.om.Home"
+            android:theme="@style/AppTheme1" />
+        <activity android:name="thamen.om.Resorces" />
+        <activity android:name="thamen.om.Email" />
+        <activity android:name="thamen.om.gazette" />
+        <activity android:name="thamen.om.academicfaculities.Centre_for_Foundation_Studies" />
+        <activity android:name="thamen.om.academicfaculities.Faculty_of_Computing_Sciences" />
+        <activity android:name="thamen.om.academicfaculities.Faculty_of_Business_and_Management" />
+        <activity android:name="thamen.om.academicfaculities.Centre_for_Postgraduate_Studies" />
+        <activity android:name="thamen.om.Vlg" />
+        <activity android:name="thamen.om.HandleData" />
+        <activity android:name="thamen.om.Profiles.ProfileActivity" />
+        <activity android:name="thamen.om.academicfaculities.Gallery" />
+        <activity android:name=".camera" />
+        <activity android:name=".Conectus" />
+        <activity android:name="thamen.om.GulfCollegeBaseActivity" />
+        <activity android:name="thamen.om.Main2ActivityCommonlistActivity" />
+        <activity android:name="thamen.om.academic" />
+        <activity android:name="thamen.om.Support" />
+        <activity android:name="thamen.om.Movies" />
+        <activity
+            android:name="thamen.om.updated.NavigationMainActivity"
+            android:label="@string/title_activity_navigation_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="thamen.om.RegistrationNew" />
+        <activity android:name="thamen.om.LoginNew"></activity>
+    </application>
+
+</manifest>

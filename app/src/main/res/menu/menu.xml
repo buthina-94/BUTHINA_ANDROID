@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/locate"
+ android:title="@string/locate_us_menu"
+    android:icon="@android:drawable/ic_dialog_map"
+    app:showAsAction="always">
+</item>
+
+    <item android:id="@+id/contact"
+        android:title="Centre for Foundation Studies"
+        app:showAsAction="never"></item>
+
+    <item android:id="@+id/language"
+        android:title="@string/change_language"></item>
+
+    <item android:id="@+id/contact1"
+        android:title="Faculty of Business and Management Studies
+"></item>
+
+    <item android:id="@+id/locate11"
+        android:title="Centre for Postgraduate Studies
+"></item>
+    <item android:id="@+id/Gallary"
+        android:title="Gallary
+"></item>
+
+</menu>

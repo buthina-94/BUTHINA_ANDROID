@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1038710982568",
+    "firebase_url": "https://buthinaandroid.firebaseio.com",
+    "project_id": "buthinaandroid",
+    "storage_bucket": "buthinaandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038710982568:android:9dfe72c0f2d3f618",
+        "android_client_info": {
+          "package_name": "thamen.om.thamen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038710982568-9khi1rl23et00rq0le7dqcdto9rjugbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "thamen.om.thamen",
+            "certificate_hash": "43953db4be48a9f89046b40160f8db7d4a61509f"
+          }
+        },
+        {
+          "client_id": "1038710982568-np6bonuu80bdgirbmfe1e1997loa14ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzuALHi3vAvqmVj-ELJr5o0A5Ymu2kYp8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038710982568-np6bonuu80bdgirbmfe1e1997loa14ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

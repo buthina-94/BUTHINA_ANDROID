@@ -1,0 +1,99 @@
+
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/phone-icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:layout_toStartOf="@+id/textView22"
+        app:srcCompat="@drawable/phone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/phone-icon"
+        android:layout_marginBottom="51dp"
+        android:layout_marginStart="31dp"
+        android:layout_toEndOf="@+id/location"
+        android:onClick="open"
+        android:text="00968 24468666"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <ImageView
+        android:id="@+id/emailll"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        app:srcCompat="@drawable/emailll"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/emailll"
+        android:layout_below="@+id/textView22"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="49dp"
+        app:srcCompat="@drawable/location"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/phone-icon"
+        android:layout_marginTop="68dp"
+        android:layout_toEndOf="@+id/location"
+        android:onClick="open"
+        android:text=" gcollege@omantel.net.om"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/location"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="27dp"
+        android:text="Locate Us"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+
+</android.widget.RelativeLayout>
